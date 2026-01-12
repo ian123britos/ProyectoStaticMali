@@ -1,0 +1,240 @@
+﻿@{
+    ViewData["Title"] = "Fotos de Bodas";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - Mali Fiestas y Eventos</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: #fff;
+        }
+
+        .galeria-section {
+            position: relative;
+            min-height: 100vh;
+            padding: 120px 0;
+            overflow: hidden;
+        }
+
+        .background-blur {
+            position: absolute;
+            inset: 0;
+            background-image: url('@Url.Content("~/images/boda-andresydaniela/AndresyDaniela5.jpg")');
+            background-size: cover;
+            background-position: center;
+            filter: blur(16px) brightness(0.45);
+            transform: scale(1.1);
+            z-index: 0;
+        }
+
+        .contenido {
+            position: relative;
+            z-index: 2;
+        }
+
+        h1, h2, h3 {
+            color: white;
+        }
+
+        .boda-card {
+            position: relative;
+            height: 520px;
+            border-radius: 22px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            cursor: pointer;
+            box-shadow: 0 25px 60px rgba(0,0,0,.65);
+            transition: transform .4s ease;
+        }
+
+            .boda-card:hover {
+                transform: scale(1.03);
+            }
+
+        .boda-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,.75), rgba(0,0,0,.2));
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+
+        .foto-card {
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,.6);
+        }
+
+            .foto-card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <section class="galeria-section">
+        <div class="background-blur"></div>
+
+        <div class="container contenido">
+
+            <h1 class="text-center display-4 fw-bold mb-5 text-uppercase">
+                Bodas
+            </h1>
+
+            <!-- BODAS CON FOTO GRANDE -->
+            <div id="folders" class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="boda-card"
+                         onclick="abrirBoda('AndresDaniela')"
+                         style="background-image:url('@Url.Content("~/images/boda-andresydaniela/ftCarpetaAndresyDaniela/PrincipalAndresyDaniela.jpg")')">
+                        <div class="boda-overlay">
+                            <h3>Andres & Daniela</h3>
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="boda-card"
+                         onclick="abrirBoda('GonzaLau')"
+                         style="background-image:url('@Url.Content("~/images/boda-gonzaylau/ftCarpetaGonzayLau/PrincipalGonzayLau.jpg")')">
+                        <div class="boda-overlay">
+                            <h3>Gonza & Lau</h3>
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="boda-card"
+                         onclick="abrirBoda('EvaJulio')"
+                         style="background-image:url('@Url.Content("~/images/boda-evayjulio/ftCarpetaEvayJulio/PrincipalEvayJulio.jpg")')">
+                        <div class="boda-overlay">
+                            <h3>Eva & Julio</h3>
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-light btn-volver">
+                        Volver al inicio
+                    </a>
+                </div>
+            </div>
+
+            <!-- GALERÍA ANDRES & DANIELA -->
+            <div id="AndresDaniela" class="hidden">
+                <h2 class="text-center my-4">Andres & Daniela</h2>
+
+                <div class="row g-4">
+                   @for(int i = 1; i <= 27;i++)
+                    {
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/Images/boda-andresydaniela/AndresyDaniela@(i).jpg">
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <div class="text-center mt-5">
+                    <button class="btn btn-outline-light" onclick="cerrarBoda()">Cerrar carpeta</button>
+                </div>
+
+            </div>
+
+            <!-- GALERÍA GONZA & LAU -->
+            <div id="GonzaLau" class="hidden">
+                <h2 class="text-center my-4">Gonza & Lau</h2>
+
+                <div class="row g-4">
+                    @for(int i = 1; i <= 24;i++)
+                    {
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/Images/boda-gonzaylau/GonzayLau@(i).jpg">
+                            </div>
+                        </div>
+                    }
+
+                </div>
+
+                <div class="text-center mt-5">
+                    <button class="btn btn-outline-light" onclick="cerrarBoda()">Cerrar carpeta</button>
+                </div>
+            </div>
+
+            <!-- GALERÍA EVA & JULIO -->
+            <div id="EvaJulio" class="hidden">
+                <h2 class="text-center my-4">Eva & Julio</h2>
+
+                <div class="row g-4">
+                    @for (int i = 1; i <= 24; i++)
+                    {
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/Images/boda-evayjulio/EvayJulio@(i).jpg">
+                            </div>
+                        </div>
+                    }
+
+                </div>
+
+                <div class="text-center mt-5">
+                    <button class="btn btn-outline-light" onclick="cerrarBoda()">Cerrar carpeta</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <script>
+        function abrirBoda(id) {
+            document.getElementById("folders").style.display = "none";
+            document.querySelectorAll('[id]').forEach(e => {
+                if (e.id !== 'folders' && e.classList.contains('hidden')) {
+                    e.style.display = "none";
+                }
+            });
+            document.getElementById(id).style.display = "block";
+        }
+
+        function cerrarBoda() {
+            document.querySelectorAll('[id]').forEach(e => {
+                if (e.id !== 'folders') {
+                    e.style.display = "none";
+                }
+            });
+            document.getElementById("folders").style.display = "flex";
+        }
+    </script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

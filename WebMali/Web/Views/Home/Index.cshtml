@@ -8,28 +8,96 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Mali Fiestas y Eventos</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- CSS de AOS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
     <style>
         html, body {
             margin: 0;
             padding: 0;
             width: 100%;
             scroll-behavior: smooth;
+            overflow-x: hidden;
         }
 
         /* Navbar fija y transición de color */
         .navbar {
+            padding-top: 0.9rem;
+            padding-bottom: 0.9rem;
             transition: background-color 0.3s, box-shadow 0.3s;
         }
 
-            .navbar.scrolled {
-                background-color: rgba(0, 0, 0, 0.9) !important;
-                box-shadow: 0 2px 10px rgba(0,0,0,0.5);
-            }
+        .navbar {
+            padding-top: 14px;
+            padding-bottom: 14px;
+        }
+
+
+        .logo-navbar {
+            height: 64px; /* altura correcta (la dejamos igual) */
+            width: auto;
+            max-width: 220px; /* ⬅️ ESTO ES LA CLAVE */
+            object-fit: contain;
+        }
+
+
+
+        /* LOGO TEXTO */
+    .logo-text {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        line-height: 1;
+    }
+
+    /* MALI */
+    .logo-mali {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.2rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #d4af37; /* dorado elegante */
+    }
+
+    /* FIESTAS & EVENTOS */
+    .logo-eventos {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.85rem;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 2px;
+    }
+
+    /* Hover elegante */
+    .logo-text:hover .logo-mali {
+        color: #f1d27a;
+    }
+
+     @@media (max-width: 768px) {
+        .logo-mali {
+            font-size: 1.6rem;
+        }
+
+        .logo-eventos {
+            font-size: 0.7rem;
+            letter-spacing: 3px;
+        }
+    }
+
+        .navbar.scrolled {
+            background-color: rgba(0, 0, 0, 0.9) !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
 
         /* Hero Video */
         .hero-video {
@@ -40,32 +108,127 @@
             position: relative;
         }
 
-
             .hero-video video {
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
+                background: black;
             }
 
-            .hero-video h1 {
-                color: white;
-                text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-            }
-
-        /* Fotos 15 Años */
-        .fotos-15 {
-            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+        /* Botones Quince - Estilo Premium */
+        .btn-fiestas {
+            width: 180px;
+            height: 180px;
+            background: linear-gradient(145deg, #0f172a, #1e293b);
+            border: none;
+            border-radius: 28px;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
+            transition: transform 0.35s ease, box-shadow 0.35s ease, background 0.35s ease;
         }
 
-            .fotos-15 img {
-                width: 100%;
-                height: auto;
-                transition: transform 0.3s;
+            /* Iconos */
+            .btn-fiestas i {
+                font-size: 3rem;
+                opacity: 0.9;
             }
 
-                .fotos-15 img:hover {
-                    transform: scale(1.05);
-                }
+            /* Texto */
+            .btn-fiestas span {
+                font-size: 0.95rem;
+                text-align: center;
+            }
+
+            /* Hover seguro (sin cosas raras para navegadores) */
+            .btn-fiestas:hover {
+                transform: translateY(-8px) scale(1.04);
+                background: linear-gradient(145deg, #1e293b, #334155);
+                box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+            }
+
+
+        /* Imágenes Fotos 15 */
+        #fotos15, #casamientos {
+            position: relative;
+            overflow: hidden;
+        }
+
+            #fotos15 p, #casamientos p {
+                font-size: 1.1rem;
+                color: #f8f9fa; /* blanco suave */
+                text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+                line-height: 1.6;
+            }
+
+
+            #fotos15 .background-blur {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('@Url.Content("~/images/fiesta-viviana/Foto5Viviana.jpg")') no-repeat center center/cover;
+                filter: blur(12px) brightness(0.7);
+                z-index: 1;
+            }
+
+            #casamientos .background-blur {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('@Url.Content("~/images/boda-andresydaniela/AndresyDaniela8.jpg")') no-repeat center center / cover;
+                filter: blur(12px) brightness(0.7);
+                z-index: 1;
+            }
+
+
+            #fotos15 .container,
+            #casamientos .container {
+                position: relative;
+                z-index: 2;
+            }
+
+        .fotos-15 img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+
+            .fotos-15 img:hover {
+                transform: scale(1.05);
+            }
+
+        #fotos15 h2, #casamientos h2 {
+            font-size: 5rem;
+            font-weight: 900;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(45deg, #ff6a95, #ffde7d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            letter-spacing: 2px;
+        }
+
+        #fotos15 h3, #casamientos h3 {
+            color: #f8f9fa; /* blanco suave */
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+            margin-bottom: 15px;
+        }
+
+
+
+
 
         /* Footer */
         footer {
@@ -74,47 +237,122 @@
             padding: 1rem 0;
             text-align: center;
         }
-
-        /* Secciones genéricas */
-        section {
-            padding: 5rem 0;
+        #quienessomos {
+            background: linear-gradient(135deg, rgba(25,25,50,0.8), rgba(40,20,60,0.8));
+            color: #fff;
+            padding: 60px 0;
         }
-    </style>
-</head>
-<!-- Logo de Instagram flotante -->
-<a href="https://www.instagram.com/malifiestaseventos/" target="_blank" class="instagram-float">
-    <img src="~/Images/instagram.png" alt="Instagram" />
-</a>
 
-<style>
-    .instagram-float {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 60px; /* tamaño del logo */
-        height: 60px;
-        z-index: 9999;
-        cursor: pointer;
-        transition: transform 0.3s, box-shadow 0.3s;
+        #quienessomos {
+        position: relative;
+        overflow: hidden;
+        min-height: 100vh;
+        background: black;
+        color: #fff;
     }
 
-        .instagram-float img {
-            width: 100%;
-            height: 100%;
+    /* VIDEO BASE */
+    #quienessomos .bg-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* desktop */
+        z-index: 1;
+    }
+
+    /* OVERLAY */
+    #quienessomos .video-overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        z-index: 2;
+    }
+
+    /* CONTENIDO */
+    #quienessomos .container {
+        position: relative;
+        z-index: 3;
+    }
+
+    /* 📱 MOBILE */
+    @@media (max-width: 768px) {
+        #quienessomos .bg-video {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+
+
+        #empresarial {
+            background: linear-gradient(135deg, rgba(25,25,50,0.8), rgba(40,20,60,0.8));
+            color: #fff;
+            padding: 60px 0;
         }
 
-        .instagram-float:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        #contacto {
+            background: linear-gradient(135deg, rgba(25,25,50,0.8), rgba(40,20,60,0.8));
+            color: #fff;
+            padding: 60px 0;
         }
-</style>
+
+
+        /* Logos flotantes */
+        .instagram-float, .whatsapp-float {
+            position: fixed;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            z-index: 9999;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .instagram-float {
+            bottom: 20px;
+        }
+
+        .whatsapp-float {
+            bottom: 100px;
+        }
+
+            .instagram-float img, .whatsapp-float img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .instagram-float:hover, .whatsapp-float:hover {
+                transform: scale(1.1);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            }
+
+    </style>
+</head>
 
 <body>
-    <!-- Header / Navbar -->
+    <!-- Logos flotantes -->
+    <a href="https://www.instagram.com/malifiestaseventos/" target="_blank" class="instagram-float">
+        <img src="~/Images/instagram.png" alt="Instagram" />
+    </a>
+    <a href="https://wa.me/59895925056" target="_blank" class="whatsapp-float">
+        <img src="~/Images/Whatsapp.jpeg" alt="WhatsApp" />
+    </a>
+
+    <!-- Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
             <div class="container">
-                <a class="navbar-brand fw-bold" href="#">Mali Fiestas y Eventos</a>
+                @* <a class="navbar-brand d-flex align-items-center" href="#hero">
+                    <img src="~/images/LogoMali2.jpeg"
+                         alt="Mali Fiestas y Eventos"
+                         class="logo-navbar">
+                </a> *@
+                <a class="navbar-brand logo-text" href="#hero">
+                    <span class="logo-mali">Mali</span>
+                    <span class="logo-eventos">Fiestas & Eventos</span>
+                </a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -122,67 +360,300 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#fotos15">15 Años</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#casamientos">Casamientos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#empresarial">Empresarial</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#quienessomos">QUIENES SOMOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hero">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#fotos15">15 AÑOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#casamientos">BODAS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#empresarial">EMPRESARIAL</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <!-- Sección Video Hero -->
+    <!-- Hero Video -->
     <section id="hero" class="hero-video container-fluid p-0">
-        <video autoplay muted loop playsinline>
-            <source src="~/Videos/LogoMali.mp4" type="video/mp4" />
+        <video autoplay muted loop playsinline preload="auto">
+            <source src="~/Videos/IntroVideo.mp4" type="video/mp4" />
             Tu navegador no soporta video en HTML5.
         </video>
     </section>
 
-    <!-- Sección Fotos 15 Años -->
-    <section id="fotos15" class="fotos-15 container-fluid">
+    <!--QUIENES SOMOS-->
+    <section id="quienessomos" class="container-fluid">
+
+        <!-- VIDEO DE FONDO -->
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="~/Videos/VideoPresentacion.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+        </video>
+
+        <!-- OVERLAY OSCURO -->
+        <div class="video-overlay"></div>
+
         <div class="container">
-            <h2 class="text-center mb-4">Fotos de 15 Años</h2>
-            <div class="row g-3 justify-content-center">
-                <div class="col-12 col-md-6">
-                    <img src="~/Images/foto1.jpg" class="img-fluid rounded shadow" alt="Foto 1">
+
+            <h2 class="text-center mb-5">Quiénes somos</h2>
+
+            <div class="row align-items-center mb-5">
+
+                <!-- TEXTO -->
+                <div class="col-md-6">
+                    <p>
+                        Somos un equipo creativo dedicado a la fotografía y producción audiovisual de eventos.
+                        Nos especializamos en quince años, bodas y eventos empresariales, capturando cada momento
+                        con una mirada profesional, artística y auténtica.
+                    </p>
+
+                    <p>
+                        Creemos que cada evento es único. Por eso trabajamos de forma personalizada,
+                        acompañando a nuestros clientes desde la planificación hasta la entrega final,
+                        cuidando cada detalle para transformar momentos en recuerdos inolvidables.
+                    </p>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="~/Images/foto2.jpg" class="img-fluid rounded shadow" alt="Foto 2">
+
+                <!-- IMAGEN -->
+                <div class="col-md-6 text-center">
+                    <img src="~/Images/foto1.JPG"
+                         class="img-fluid rounded-4 shadow"
+                         alt="Equipo Mali Fiestas y Eventos">
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="~/Images/foto3.jpg" class="img-fluid rounded shadow" alt="Foto 3">
+
+            </div>
+
+            <!-- VALORES -->
+            <div class="row text-center mt-5">
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h4>📸</h4>
+                    <p>Experiencia</p>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="~/Images/foto4.jpg" class="img-fluid rounded shadow" alt="Foto 4">
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h4>🎥</h4>
+                    <p>Calidad audiovisual</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h4>❤️</h4>
+                    <p>Cercanía</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h4>⭐</h4>
+                    <p>Profesionalismo</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h4>🎉</h4>
+                    <p>Momentos únicos</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h4>⏱️</h4>
+                    <p>Puntualidad</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h4>🤝</h4>
+                    <p>Confianza</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <h4>✨</h4>
+                    <p>Detalles importantes</p>
+                </div>
+
+            </div>
+
+            <!-- FRASE FINAL -->
+            <div class="text-center mt-4">
+                <p class="fw-bold fst-italic">
+                    “No solo registramos eventos, creamos recuerdos que duran toda la vida.”
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Fotos 15 -->
+    <section id="fotos15" class="container-fluid py-5">
+        <div class="background-blur"></div>
+        <div class="container position-relative">
+            <h2 class="text-center mb-5 display-4 fw-bold text-uppercase">15 Años</h2>
+
+            <!-- Bloques -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h3 class="fw-bold ">Una Noche Inolvidable</h3>
+                    <p>Esta noche brilló con la alegría de cumplir 15 años, donde cada risa, cada abrazo y cada mirada se convirtió en un recuerdo que atesoraremos para siempre. Fue un momento mágico donde la familia y los amigos se unieron para celebrar la juventud, la emoción y los sueños que comienzan a florecer.</p>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-left">
+                    <img src="~/Images/fiesta-angela/ftCarpetaAngela/PrincipalAngela.JPG" class="img-fluid rounded-3 shadow" alt="Fiesta de 15">
                 </div>
             </div>
+
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+                <div class="col-md-6" data-aos="fade-left">
+                    <h3 class="fw-bold">Momentos Especiales</h3>
+                    <p>Desde la entrada triunfal hasta el último baile de la noche, cada instante estuvo lleno de emoción, música y sorpresas. Los detalles, los colores y las sonrisas se entrelazaron para crear una atmósfera única, donde cada invitado pudo sentirse parte de un sueño hecho realidad y disfrutar de momentos que quedarán grabados en el corazón.</p>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-right">
+                    <img src="~/images/fiesta-victoria/ftCarpetaVictoria/PrincipalVictoria.JPG" class="img-fluid rounded-3 shadow" alt="Celebración 15 años">
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h3 class="fw-bold">Magia y Recuerdos</h3>
+                    <p>La noche se llenó de magia y de momentos que jamás olvidaremos: risas compartidas, bailes sorprendentes y emociones sinceras que nos recordaron la belleza de crecer y celebrar la vida. Cada detalle fue pensado para que esta noche fuera un viaje lleno de emociones, alegría y recuerdos que permanecerán para siempre en el corazón de todos.</p>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-left">
+                    <img src="~/images/fiesta-antonellaH/Foto4AntonellaH.JPG" class="img-fluid rounded-3 shadow" alt="Fiesta de 15">
+                </div>
+            </div>
+
+            <!-- Botones -->
+            <div class="d-flex justify-content-center gap-4 mt-5 flex-wrap">
+
+                <form asp-controller="Quince" asp-action="Fotos" method="get">
+                    <button type="submit" class="btn-fiestas">
+                        <i class="bi bi-camera"></i>
+                        <span>Fotos</span>
+                    </button>
+                </form>
+
+                <form asp-controller="Quince" asp-action="Trailer" method="get">
+                    <button type="submit" class="btn-fiestas">
+                        <i class="bi bi-play-circle"></i>
+                        <span>Trailer de la fiesta</span>
+                    </button>
+                </form>
+
+                <form asp-controller="Quince" asp-action="Exteriores" method="get">
+                    <button type="submit" class="btn-fiestas">
+                        <i class="bi bi-tree"></i>
+                        <span>Exteriores</span>
+                    </button>
+                </form>
+
+            </div>
+
         </div>
     </section>
 
-    <!-- Sección Casamientos -->
-    <section id="casamientos" class="container-fluid" style="background: linear-gradient(135deg, #fceabb, #f8b500);">
-        <div class="container">
-            <h2 class="text-center mb-4">Casamientos</h2>
-            <p class="text-center">Contenido de casamientos aquí...</p>
+    <!-- Casamientos -->
+    <section id="casamientos" class="container-fluid py-5">
+        <div class="background-blur"></div>
+        <div class="container position-relative">
+            <h2 class="text-center mb-5 display-4 fw-bold text-uppercase">Bodas</h2>
+
+            <!-- Bloques -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h3 class="fw-bold">Un Inicio Inolvidable</h3>
+                    <p>
+                        El civil marcó el comienzo de esta nueva etapa, un momento íntimo y profundo donde dos personas decidieron unir sus caminos.
+                        Entre miradas cómplices, sonrisas sinceras y la emoción compartida con sus seres queridos, se dio el primer paso de una historia
+                        que empieza a escribirse con amor, compromiso y sueños en común.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-left">
+                    <img src="~/images/boda-gonzaylau/GonzayLau1.jpg" class="img-fluid rounded-3 shadow" alt="Boda">
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5 flex-md-row-reverse">
+                <div class="col-md-6" data-aos="fade-left">
+                    <h3 class="fw-bold">Momentos Especiales</h3>
+                    <p>
+                        En la iglesia, rodeados de silencio, miradas emocionadas y corazones latiendo fuerte, llegó uno de los momentos más significativos:
+                        el intercambio de anillos. Un gesto simple pero cargado de promesas, donde el amor se hizo palabra, compromiso y unión,
+                        sellando ante sus seres queridos una decisión que los acompañará por toda la vida.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-right">
+                    <img src="~/images/boda-andresydaniela/AndresyDaniela7.jpg" class="img-fluid rounded-3 shadow" alt="Fiesta de Boda">
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h3 class="fw-bold">Recuerdos Eternos</h3>
+                    <p>
+                        Una noche mágica que quedará grabada para siempre en la memoria de todos. 
+                        Cada gesto, cada baile y cada emoción compartida fue parte de un momento único, 
+                        lleno de amor y felicidad, creando recuerdos eternos que los novios y sus seres 
+                        queridos atesorarán por siempre.</p>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-left">
+                    <img src="~/images/boda-evayjulio/EvayJulio8.jpg" class="img-fluid rounded-3 shadow" alt="Boda inolvidable">
+                </div>
+            </div>
+            <!-- Botones -->
+            <div class="d-flex justify-content-center gap-4 mt-5 flex-wrap">
+
+                <form asp-controller="Boda" asp-action="FotosBoda" method="get">
+                    <button type="submit" class="btn-fiestas">
+                        <i class="bi bi-camera"></i>
+                        <span>Fotos</span>
+                    </button>
+                </form>
+
+                <form asp-controller="Boda" asp-action="TrailerBoda" method="get">
+                    <button type="submit" class="btn-fiestas">
+                        <i class="bi bi-heart-fill"></i>
+                        <span>Trailer de la boda</span>
+                    </button>
+                </form>
+
+            </div>
+
         </div>
     </section>
 
-    <!-- Sección Empresarial -->
-    <section id="empresarial" class="container-fluid" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">
+    <!-- Empresarial -->
+    <section id="empresarial" class="container-fluid">
         <div class="container">
             <h2 class="text-center mb-4">Eventos Empresariales</h2>
             <p class="text-center">Contenido empresarial aquí...</p>
         </div>
     </section>
 
-    <!-- Sección Contacto -->
-    <section id="contacto" class="container-fluid" style="background: linear-gradient(135deg, #ff9a9e, #fecfef);">
+    <!-- Contacto -->
+    <section id="contacto" class="container-fluid">
         <div class="container">
-            <h2 class="text-center mb-4">Contacto</h2>
-            <p class="text-center">Formulario o información de contacto aquí...</p>
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success text-center" role="alert">@TempData["Success"]</div>
+            }
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger text-center" role="alert">@TempData["Error"]</div>
+            }
+            <form asp-controller="Contacto" asp-action="Enviar" method="post" class="mx-auto" style="max-width:600px;">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="Nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo</label>
+                    <input type="email" class="form-control" id="correo" name="Correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="Telefono" class="form-label">Telefono</label>
+                    <input type="number" class="form-control" id="telefono" name="Telefono" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Hacer consulta</label>
+                    <textarea class="form-control" id="mensaje" name="Mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark w-100">Enviar</button>
+            </form>
         </div>
     </section>
 
@@ -193,9 +664,14 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        // Cambiar color del navbar al hacer scroll
-        $(function () {
+        AOS.init({
+            duration: 1200,
+            once: false
+        });
+
+        $(document).ready(function () {
             var navbar = $('.navbar');
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 50) {
@@ -204,6 +680,16 @@
                     navbar.removeClass('scrolled');
                 }
             });
+
+            if ($(".alert").length) {
+                $('html, body').animate({
+                    scrollTop: $("#contacto").offset().top - 70
+                }, 600);
+            }
+
+            setTimeout(function () {
+                $(".alert").fadeOut("slow");
+            }, 10000);
         });
     </script>
 </body>

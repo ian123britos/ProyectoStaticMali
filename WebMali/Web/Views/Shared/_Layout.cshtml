@@ -1,50 +1,203 @@
-﻿@* <!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Web</title>
+    <title>@ViewData["Title"] - Mali Fiestas y Eventos</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Web.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* ===== NAVBAR ===== */
+
+        .navbar {
+            padding: 0.9rem 0;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .navbar-brand {
+            font-size: 1.45rem;
+            letter-spacing: 1px;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            margin-left: 14px;
+            position: relative;
+        }
+
+        /* Línea animada */
+        .navbar-dark .navbar-nav .nav-link::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 3px;
+            width: 0%;
+            height: 2px;
+            background-color: #f5cfa5;
+            transition: width 0.3s ease;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* MOBILE */
+        @@media (max-width: 991px) {
+            .navbar-nav {
+                text-align: center;
+                padding-top: 15px;
+            }
+
+            .navbar-nav .nav-link {
+                margin: 12px 0;
+                font-size: 1.1rem;
+            }
+        }
+        /* ===== LOGO TEXTO MALI ===== */
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            line-height: 1;
+        }
+
+        .logo-mali {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.1rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: #d4af37; /* dorado elegante */
+        }
+
+        .logo-eventos {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin-top: 2px;
+        }
+
+        /* Hover elegante */
+        .logo-text:hover .logo-mali {
+            color: #f1d27a;
+        }
+
+        /* Responsive celular */
+        @@media (max-width: 768px) {
+            .logo-mali {
+                font-size: 1.6rem;
+            }
+
+            .logo-eventos {
+                font-size: 0.65rem;
+                letter-spacing: 3px;
+            }
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+
+
+        /* Logos flotantes */
+        .instagram-float, .whatsapp-float {
+            position: fixed;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            z-index: 9999;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .instagram-float {
+            bottom: 20px;
+        }
+
+        .whatsapp-float {
+            bottom: 100px;
+        }
+
+            .instagram-float img, .whatsapp-float img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .instagram-float:hover, .whatsapp-float:hover {
+                transform: scale(1.1);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            }
+
+    </style>
 </head>
+
 <body>
+    <!-- Logos flotantes -->
+    <a href="https://www.instagram.com/malifiestaseventos/" target="_blank" class="instagram-float">
+        <img src="~/Images/instagram.png" alt="Instagram" />
+    </a>
+    <a href="https://wa.me/59895925056" target="_blank" class="whatsapp-float">
+        <img src="~/Images/Whatsapp.jpeg" alt="WhatsApp" />
+    </a>
+    <!-- NAVBAR -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
             <div class="container">
-                <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">Mali Fiestas y Eventos</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand logo-text" asp-controller="Home" asp-action="Index">
+                    <span class="logo-mali">Mali</span>
+                    <span class="logo-eventos">Fiestas & Eventos</span>
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">@Html.ActionLink("Nosotros", "Nosotros", "Home", null, new { @class = "nav-link" })</li>
-                        <li class="nav-item">@Html.ActionLink("15 Años", "Quince", "Home", null, new { @class = "nav-link" })</li>
-                        <li class="nav-item">@Html.ActionLink("Casamientos", "Casamientos", "Home", null, new { @class = "nav-link" })</li>
-                        <li class="nav-item">@Html.ActionLink("Empresarial", "Empresarial", "Home", null, new { @class = "nav-link" })</li>
-                        <li class="nav-item">@Html.ActionLink("Contacto", "Contacto", "Home", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">
+                            @Html.ActionLink("QUIENES SOMOS", "Index", "Home", null, new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("15 AÑOS", "Index", "Home", null, new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("BODAS", "Index", "Home", null, new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("EMPRESARIAL", "Index", "Home", null, new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("CONTACTO", "Index", "Home", null, new { @class = "nav-link" })
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <!-- CONTENIDO -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-mali text-center">
+        © 2025 · Mali Fiestas y Eventos
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("Scripts", required: false)
+
 </body>
 </html>
- *@

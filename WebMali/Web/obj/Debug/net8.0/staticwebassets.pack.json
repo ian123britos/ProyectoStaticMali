@@ -5,24 +5,1532 @@
       "PackagePath": "staticwebassets\\Web.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\foto1.JPG",
-      "PackagePath": "staticwebassets\\Images\\foto1.JPG"
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT10Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT10Angela.JPG"
     },
     {
-      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\foto2.JPG",
-      "PackagePath": "staticwebassets\\Images\\foto2.JPG"
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT11Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT11Angela.JPG"
     },
     {
-      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\foto3.JPG",
-      "PackagePath": "staticwebassets\\Images\\foto3.JPG"
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT12Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT12Angela.JPG"
     },
     {
-      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\foto4.JPG",
-      "PackagePath": "staticwebassets\\Images\\foto4.JPG"
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT13Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT13Angela.JPG"
     },
     {
-      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\LogoMali.mp4",
-      "PackagePath": "staticwebassets\\Videos\\LogoMali.mp4"
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT14Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT14Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT15Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT15Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT16Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT16Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT17Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT17Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT18Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT18Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT1Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT1Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT2Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT2Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT3Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT3Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT4Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT4Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT5Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT5Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT6Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT6Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT7Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT7Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT8Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT8Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT9Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\FotoEXT9Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angela\\PrincipalEXTangela.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angela\\PrincipalEXTangela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto10EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto10EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto11EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto11EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto12EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto12EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto13EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto13EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto14EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto14EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto15EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto15EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto1EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto1EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto2EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto2EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto3EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto3EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto4EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto4EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto5EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto5EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto6EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto6EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto7EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto7EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto8EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto8EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\Foto9EXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\Foto9EXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-angelina\\PrincipalEXTangelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-angelina\\PrincipalEXTangelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext10victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext10victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext11victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext11victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext12victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext12victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext13victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext13victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext14victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext14victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext15victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext15victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext16victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext16victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext17victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext17victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext18victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext18victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext19victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext19victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext1victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext1victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext20victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext20victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext2victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext2victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext3victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext3victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext4victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext4victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext5victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext5victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext6victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext6victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext7victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext7victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext8victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext8victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Exteriores\\FTexteriores-victoria\\fext9victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\Exteriores\\FTexteriores-victoria\\fext9victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\LogoMali.jpeg",
+      "PackagePath": "staticwebassets\\Images\\LogoMali.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\LogoMali2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\LogoMali2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\Whatsapp.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Whatsapp.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela1.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela10.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela10.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela11.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela11.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela12.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela12.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela13.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela13.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela14.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela14.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela15.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela15.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela16.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela16.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela17.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela17.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela18.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela18.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela19.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela19.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela2.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela20.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela20.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela21.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela21.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela22.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela22.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela23.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela23.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela24.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela24.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela25.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela25.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela26.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela26.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela27.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela27.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela3.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela4.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela4.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela5.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela5.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela6.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela6.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela7.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela7.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela8.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela8.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\AndresyDaniela9.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\AndresyDaniela9.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-andresydaniela\\ftCarpetaAndresyDaniela\\PrincipalAndresyDaniela.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-andresydaniela\\ftCarpetaAndresyDaniela\\PrincipalAndresyDaniela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio1.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio10.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio10.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio11.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio11.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio12.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio12.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio13.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio13.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio14.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio14.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio15.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio15.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio16.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio16.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio17.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio17.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio18.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio18.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio19.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio19.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio2.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio20.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio20.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio21.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio21.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio22.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio22.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio23.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio23.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio24.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio24.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio3.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio4.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio4.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio5.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio5.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio6.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio6.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio7.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio7.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio8.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio8.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\EvayJulio9.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\EvayJulio9.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-evayjulio\\ftCarpetaEvayJulio\\PrincipalEvayJulio.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-evayjulio\\ftCarpetaEvayJulio\\PrincipalEvayJulio.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau1.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau10.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau10.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau11.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau11.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau12.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau12.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau13.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau13.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau14.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau14.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau15.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau15.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau16.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau16.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau17.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau17.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau18.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau18.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau19.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau19.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau2.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau20.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau20.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau21.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau21.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau22.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau22.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau23.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau23.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau24.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau24.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau3.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau4.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau4.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau5.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau5.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau6.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau6.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau7.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau7.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau8.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau8.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\GonzayLau9.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\GonzayLau9.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\boda-gonzaylau\\ftCarpetaGonzayLau\\PrincipalGonzayLau.JPG",
+      "PackagePath": "staticwebassets\\Images\\boda-gonzaylau\\ftCarpetaGonzayLau\\PrincipalGonzayLau.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto10Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto10Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto11Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto11Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto12Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto12Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto13Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto13Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto14Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto14Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto15Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto15Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto16Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto16Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto17Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto17Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto18Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto18Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto19Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto19Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto1Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto1Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto20Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto20Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto21Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto21Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto22Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto22Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto23.1Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto23.1Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto23Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto23Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto24.1Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto24.1Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto24Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto24Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto26Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto26Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto28Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto28Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto29Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto29Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto2Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto2Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto30Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto30Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto31Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto31Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto32Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto32Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto33Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto33Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto3Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto3Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto4Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto4Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto5Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto5Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto6Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto6Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto7Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto7Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto8Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto8Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\Foto9Angela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\Foto9Angela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angela\\ftCarpetaAngela\\PrincipalAngela.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angela\\ftCarpetaAngela\\PrincipalAngela.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto10Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto10Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto11Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto11Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto12Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto12Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto13Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto13Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto14Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto14Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto15Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto15Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto16Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto16Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto17Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto17Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto18Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto18Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto19Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto19Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto1Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto1Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto20Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto20Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto21Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto21Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto22Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto22Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto23Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto23Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto24Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto24Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto25Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto25Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto26Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto26Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto27Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto27Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto28Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto28Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto2Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto2Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto3Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto3Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto4Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto4Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto5Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto5Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto6Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto6Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto7Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto7Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto8Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto8Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\Foto9Angelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\Foto9Angelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-angelina\\ftCarpetaAngelina\\PrincipalAngelina.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-angelina\\ftCarpetaAngelina\\PrincipalAngelina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto10AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto10AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto11AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto11AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto12AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto12AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto13AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto13AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto14AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto14AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto15AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto15AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto16AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto16AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto17AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto17AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto18AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto18AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto19AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto19AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto1AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto1AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto20AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto20AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto21AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto21AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto22AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto22AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto23AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto23AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto24AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto24AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto25AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto25AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto26AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto26AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto27AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto27AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto28AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto28AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto29AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto29AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto2AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto2AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto30AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto30AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto31AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto31AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto3AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto3AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto4AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto4AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto5AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto5AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto6AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto6AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto7AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto7AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto8AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto8AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\Foto9AntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\Foto9AntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-antonellaH\\ftCarpetaAntonellaH\\PrincipalAntonellaH.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-antonellaH\\ftCarpetaAntonellaH\\PrincipalAntonellaH.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto10Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto10Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto11Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto11Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto12Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto12Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto13Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto13Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto14Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto14Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto15Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto15Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto16Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto16Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto17Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto17Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto18Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto18Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto19Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto19Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto1Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto1Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto20Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto20Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto21Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto21Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto22Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto22Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto23Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto23Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto24Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto24Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto2Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto2Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto3Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto3Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto4Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto4Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto5Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto5Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto6Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto6Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto7Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto7Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto8Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto8Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\Foto9Belen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\Foto9Belen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-belen\\ftCarpetaBelen\\PrincipalBelen.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-belen\\ftCarpetaBelen\\PrincipalBelen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto10Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto10Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto11Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto11Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto12Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto12Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto13Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto13Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto14Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto14Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto15Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto15Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto16Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto16Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto17Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto17Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto18Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto18Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto19Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto19Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto1Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto1Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto20Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto20Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto21Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto21Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto22Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto22Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto23Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto23Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto24Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto24Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto25Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto25Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto26Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto26Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto28Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto28Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto2Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto2Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto3Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto3Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto4Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto4Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto5Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto5Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto6Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto6Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto7Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto7Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto8Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto8Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\Foto9Maia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\Foto9Maia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-maia\\ftCarpetaMaia\\PrincipalMaia.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-maia\\ftCarpetaMaia\\PrincipalMaia.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto10Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto10Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto11Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto11Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto12Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto12Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto13Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto13Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto14Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto14Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto15Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto15Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto16Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto16Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto17Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto17Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto18Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto18Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto19Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto19Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto1Pili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto1Pili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto20Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto20Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto21Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto21Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto22Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto22Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto23Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto23Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto24Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto24Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto25Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto25Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto26Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto26Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto27Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto27Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto28Pili.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto28Pili.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto2Pili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto2Pili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto3Pili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto3Pili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto4Pili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto4Pili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto6Pili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto6Pili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto7Pili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto7Pili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto8Pili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto8Pili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\Foto9Pili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\Foto9Pili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-pili\\ftCarpetaPili\\PrincipalPili.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-pili\\ftCarpetaPili\\PrincipalPili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto0Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto0Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto10Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto10Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto11Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto11Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto12Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto12Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto13Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto13Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto14Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto14Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto15Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto15Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto16Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto16Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto17Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto17Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto18Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto18Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto19Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto19Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto1Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto1Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto20Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto20Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto21Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto21Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto22Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto22Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto23Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto23Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto24Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto24Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto25Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto25Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto26Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto26Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto27Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto27Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto28Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto28Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto29Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto29Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto2Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto2Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto3Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto3Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto4Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto4Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto5Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto5Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto6Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto6Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto7Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto7Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto8Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto8Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\Foto9Victoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\Foto9Victoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-victoria\\ftCarpetaVictoria\\PrincipalVictoria.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-victoria\\ftCarpetaVictoria\\PrincipalVictoria.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto10Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto10Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto11Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto11Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto12Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto12Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto13Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto13Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto14Viviana.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto14Viviana.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto15Viviana.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto15Viviana.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto16Viviana.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto16Viviana.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto17Viviana.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto17Viviana.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto18Viviana.JPG",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto18Viviana.JPG"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto19Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto19Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto1Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto1Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto2Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto2Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto3Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto3Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto4Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto4Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto5Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto5Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto6Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto6Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto7Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto7Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto8Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto8Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\Foto9Viviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\Foto9Viviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\fiesta-viviana\\ftCarpetaViviana\\PrincipalViviana.jpg",
+      "PackagePath": "staticwebassets\\Images\\fiesta-viviana\\ftCarpetaViviana\\PrincipalViviana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Images\\instagram.png",
+      "PackagePath": "staticwebassets\\Images\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\BodaTrailer\\MMGerardoyYessica.mp4",
+      "PackagePath": "staticwebassets\\Videos\\BodaTrailer\\MMGerardoyYessica.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\BodaTrailer\\MMXimenayGaston.mp4",
+      "PackagePath": "staticwebassets\\Videos\\BodaTrailer\\MMXimenayGaston.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\Cortos\\CortoUno.mp4",
+      "PackagePath": "staticwebassets\\Videos\\Cortos\\CortoUno.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\Cortos\\FotoFondoPagWeb.mp4",
+      "PackagePath": "staticwebassets\\Videos\\Cortos\\FotoFondoPagWeb.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\ExterioresVideos\\ExterioresFiore&Maga.mp4",
+      "PackagePath": "staticwebassets\\Videos\\ExterioresVideos\\ExterioresFiore&Maga.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\ExterioresVideos\\ExterioresMagdalena.mp4",
+      "PackagePath": "staticwebassets\\Videos\\ExterioresVideos\\ExterioresMagdalena.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\ExterioresVideos\\ExterioresPaulina.mp4",
+      "PackagePath": "staticwebassets\\Videos\\ExterioresVideos\\ExterioresPaulina.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\ExterioresVideos\\ExterioresPia.mp4",
+      "PackagePath": "staticwebassets\\Videos\\ExterioresVideos\\ExterioresPia.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\ExterioresVideos\\ExterioresTatiana.mp4",
+      "PackagePath": "staticwebassets\\Videos\\ExterioresVideos\\ExterioresTatiana.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\IntroVideo.mp4",
+      "PackagePath": "staticwebassets\\Videos\\IntroVideo.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\QuinceTrailer\\MMBelen.mp4",
+      "PackagePath": "staticwebassets\\Videos\\QuinceTrailer\\MMBelen.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\QuinceTrailer\\MMDiego.mp4",
+      "PackagePath": "staticwebassets\\Videos\\QuinceTrailer\\MMDiego.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\QuinceTrailer\\MMFiore&Maga.mp4",
+      "PackagePath": "staticwebassets\\Videos\\QuinceTrailer\\MMFiore&Maga.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\QuinceTrailer\\MMGiulliana.mp4",
+      "PackagePath": "staticwebassets\\Videos\\QuinceTrailer\\MMGiulliana.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\QuinceTrailer\\MMJoaquin.mp4",
+      "PackagePath": "staticwebassets\\Videos\\QuinceTrailer\\MMJoaquin.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\QuinceTrailer\\MMPia.mp4",
+      "PackagePath": "staticwebassets\\Videos\\QuinceTrailer\\MMPia.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\QuinceTrailer\\MMRomina.mp4",
+      "PackagePath": "staticwebassets\\Videos\\QuinceTrailer\\MMRomina.mp4"
+    },
+    {
+      "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\Videos\\VideoPresentacion.mp4",
+      "PackagePath": "staticwebassets\\Videos\\VideoPresentacion.mp4"
     },
     {
       "Id": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\wwwroot\\css\\site.css",

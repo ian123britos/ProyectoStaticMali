@@ -18,12 +18,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hlbc7\ProyectoStaticMali\WebMali\Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hlbc7/ProyectoStaticMali/WebMali/Web/Views/Boda/FotosBoda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9kYVxGb3Rvc0JvZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hlbc7/ProyectoStaticMali/WebMali/Web/Views/Boda/TrailerBoda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9kYVxUcmFpbGVyQm9kYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hlbc7/ProyectoStaticMali/WebMali/Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hlbc7/ProyectoStaticMali/WebMali/Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hlbc7/ProyectoStaticMali/WebMali/Web/Views/Quince/Exteriores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpbmNlXEV4dGVyaW9yZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hlbc7/ProyectoStaticMali/WebMali/Web/Views/Quince/Fotos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpbmNlXEZvdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hlbc7/ProyectoStaticMali/WebMali/Web/Views/Quince/Trailer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpbmNlXFRyYWlsZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hlbc7/ProyectoStaticMali/WebMali/Web/Views/Shared/Error.cshtml]

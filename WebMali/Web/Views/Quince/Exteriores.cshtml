@@ -1,0 +1,455 @@
+﻿@{
+    ViewData["Title"] = "Exteriores";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - Mali Fiestas y Eventos</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+<style>
+    body {
+        position: relative;
+        background: url('/images/Exteriores/FTexteriores-angela/FotoEXT1Angela.jpg') no-repeat center center / cover;
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.45);
+            backdrop-filter: blur(12px);
+            z-index: -1;
+        }
+
+    .titulo-exteriores {
+        color: #f5f5f5;
+        letter-spacing: 6px;
+        text-shadow: 0 2px 10px rgba(0,0,0,0.9), 0 0 25px rgba(255,255,255,0.15);
+    }
+
+    /* ===== CARDS PRINCIPALES ===== */
+    .exteriores-card {
+        position: relative;
+        height: 420px;
+        border-radius: 22px;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.35);
+        transition: transform .4s ease;
+    }
+
+        .exteriores-card:hover {
+            transform: scale(1.03);
+        }
+
+    .exteriores-img {
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+
+    .exteriores-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 110%;
+        height: 110%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+    }
+
+    .exteriores-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        z-index: 2;
+        text-align: center;
+    }
+
+        .exteriores-overlay h3 {
+            font-size: 2.7rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        .exteriores-overlay span {
+            font-size: 0.9rem;
+            letter-spacing: 4px;
+            margin-top: 5px;
+            opacity: 0.85;
+        }
+
+    .hidden {
+        display: none;
+    }
+
+    /* ===== VIDEOS ===== */
+    .video-card {
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0,0,0,.6);
+    }
+
+        .video-card video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    /* ===== CARPETAS ===== */
+    .carpeta-foto {
+        position: relative;
+        height: 320px;
+        border-radius: 22px;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        overflow: hidden;
+        box-shadow: 0 15px 40px rgba(0,0,0,.5);
+        transition: transform .4s ease;
+    }
+
+        .carpeta-foto:hover {
+            transform: scale(1.04);
+        }
+
+    .carpeta-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.85));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+    }
+
+    /* ===== GALERÍA ===== */
+    .galeria img {
+        width: 100%;
+        border-radius: 18px;
+        box-shadow: 0 10px 30px rgba(0,0,0,.6);
+    }
+
+    /* 🔑 CLAVE PARA QUE LOS BOTONES FUNCIONEN */
+    button {
+        position: relative;
+        z-index: 10;
+    }
+
+    .btn-volver {
+        border-radius: 30px;
+        padding: 12px 30px;
+        font-weight: 600;
+    }
+        /* ===== FIX CONTRASTE H3 ===== */
+        .exteriores-overlay h3,
+        .carpeta-overlay h3,
+        #videos h3,
+        #fotos h3,
+        .galeria h3 {
+            color: #ffffff;
+            text-shadow: 0 3px 12px rgba(0,0,0,0.95), 0 0 25px rgba(0,0,0,0.6);
+        }
+
+        .exteriores-title {
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: #ffffff;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 14px;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+        }
+
+            .exteriores-title::after {
+                content: "";
+                display: block;
+                width: 42px;
+                height: 2px;
+                background-color: #ffffff;
+                margin: 8px auto 0;
+                border-radius: 2px;
+            }
+
+
+</style>
+</head>
+<section class="container-fluid py-5">
+    <div class="container">
+
+        <h2 class="text-center mb-5 display-4 fw-bold text-uppercase titulo-exteriores">
+            Exteriores
+        </h2>
+
+        <!-- ===== SELECTOR ===== -->
+       <div id="selector" class="row justify-content-center g-4">
+
+            <!-- FOTOS -->
+            <div class="col-md-6">
+                <div class="exteriores-card" onclick="mostrarFotos()">
+                    <video class="exteriores-video" autoplay muted loop playsinline>
+                        
+                        <source src="@Url.Content("~/Videos/Cortos/FotoFondoPagWeb.mp4")" type="video/mp4">
+                    </video>
+
+                    <div class="exteriores-overlay">
+                        <h3>Fotos Exteriores</h3>
+                        <span>Ver galería</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VIDEOS -->
+            <div class="col-md-6">
+                <div class="exteriores-card" onclick="mostrarVideos()">
+                    <video class="exteriores-video" autoplay muted loop playsinline>
+                        <source src="@Url.Content("~/Videos/Cortos/CortoUno.mp4")" type="video/mp4">
+                    </video>
+
+                    <div class="exteriores-overlay">
+                        <h3>Videos Exteriores</h3>
+                        <span>Ver videos</span>
+                    </div>
+                </div>
+            </div>
+             <div class="text-center mt-5">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-light btn-volver">
+                        Volver al inicio
+                    </a>
+                </div>
+        </div>
+
+
+        <!-- ===== VIDEOS ===== -->
+        <div id="videos" class="hidden">
+            <h3 class="text-center my-5 fw-bold">Videos Exteriores</h3>
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <h4 class="exteriores-title">Pia · Exteriores</h4>
+                    <div class="video-card">
+                        <video controls>
+                            <source src="@Url.Content("~/videos/ExterioresVideos/ExterioresPia.mp4")">
+                        </video>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                <h4 class="exteriores-title">Tatiana · Exteriores</h4>
+                    <div class="video-card">
+                        <video controls>
+                            <source src="@Url.Content("~/videos/ExterioresVideos/ExterioresTatiana.mp4")">
+                        </video>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                <h4 class="exteriores-title">Paulina · Exteriores</h4>
+                    <div class="video-card">
+                        <video controls>
+                            <source src="@Url.Content("~/videos/ExterioresVideos/ExterioresPaulina.mp4")">
+                        </video>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                <h4 class="exteriores-title">Magdalena · Exteriores</h4>
+                    <div class="video-card">
+                        <video controls>
+                            <source src="@Url.Content("~/videos/ExterioresVideos/ExterioresMagdalena.mp4")">
+                        </video>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="exteriores-title">Fiore & Maga · Exteriores</h4>
+                    <div class="video-card">
+                        <video controls>
+                            <source src="@Url.Content("~/videos/ExterioresVideos/ExterioresFiore&Maga.mp4")">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <button class="btn btn-outline-light px-5 py-3" onclick="volver()">Volver</button>
+            </div>
+        </div>
+
+        <!-- ===== FOTOS ===== -->
+        <div id="fotos" class="hidden">
+            <h3 class="text-center my-5 fw-bold">Fotos Exteriores</h3>
+
+            <div class="row g-4">
+            <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('ExtAngela')"
+                         style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-angela/PrincipalEXTangela.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>ANGELA</h3>
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('ExtAngelina')"
+                         style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto11EXTAngelina.jpg")')">
+                            <div class="carpeta-overlay">
+                                <h3>ANGELINA</h3>
+                                <span>VER GALERÍA</span>
+                            </div>
+                    </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('ExtVictoria')"
+                         style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext11victoria.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>VICTORIA</h3>
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="text-center mt-5">
+                <button class="btn btn-outline-light px-5 py-3" onclick="volver()">Volver</button>
+            </div>
+        </div>
+
+        <!-- ===== GALERÍAS ===== -->
+        <div id="galeria-ExtAngela" class="hidden galeria">
+            <h3 class="text-center my-5 fw-bold">Angela · Exteriores</h3>
+            <div class="row g-4">
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT1Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT2Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT3Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT4Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT5Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT6Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT7Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT8Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT9Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT10Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT11Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT12Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT13Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT14Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT15Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT16Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT17Angela.jpg")"></div>
+                <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-Angela/FotoEXT18Angela.jpg")"></div>
+            </div>
+
+            <div class="text-center mt-5">
+                <button class="btn btn-outline-light px-5 py-3" onclick="volverAFotos()">Volver</button>
+            </div>
+
+        </div>
+
+        <div id="galeria-ExtAngelina" class="hidden galeria">
+            <h3 class="text-center my-5 fw-bold">Angelina · Exteriores</h3>
+            <div class="row g-4">
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto1EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto2EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto3EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto4EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto5EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto6EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto7EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto8EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto9EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto10EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto11EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto12EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto13EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto14EXTangelina.jpg")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto15EXTangelina.jpg")"></div>
+        </div>
+            <div class="text-center mt-5">
+                <button class="btn btn-outline-light px-5 py-3" onclick="volverAFotos()">Volver</button>
+            </div>
+        </div>
+
+        <div id="galeria-ExtVictoria" class="hidden galeria">
+            <h3 class="text-center my-5 fw-bold">Victoria · Exteriores</h3>
+            <div class="row g-4">
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext1victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext2victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext3victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext4victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext5victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext6victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext7victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext8victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext10victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext9victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext11victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext12victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext13victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext14victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext17victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext16victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext15victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext18victoria.JPG")"></div>
+            <div class="col-6 col-md-4"><img src="@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext19victoria.JPG")"></div>
+        </div>
+            <div class="text-center mt-5">
+                <button class="btn btn-outline-light px-5 py-3" onclick="volverAFotos()">Volver</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    function ocultarTodo() {
+        document.getElementById("selector").style.display = "none";
+        document.getElementById("videos").style.display = "none";
+        document.getElementById("fotos").style.display = "none";
+        document.querySelectorAll(".galeria").forEach(g => g.style.display = "none");
+    }
+
+    function mostrarVideos() {
+        ocultarTodo();
+        document.getElementById("videos").style.display = "block";
+    }
+
+    function mostrarFotos() {
+        ocultarTodo();
+        document.getElementById("fotos").style.display = "block";
+    }
+
+    function abrirCarpeta(nombre) {
+        ocultarTodo();
+        document.getElementById("galeria-" + nombre).style.display = "block";
+    }
+
+    function volver() {
+        ocultarTodo();
+        document.getElementById("selector").style.display = "flex";
+    }
+
+    function volverAFotos() {
+        ocultarTodo();
+        document.getElementById("fotos").style.display = "block";
+    }
+</script>
+</html>

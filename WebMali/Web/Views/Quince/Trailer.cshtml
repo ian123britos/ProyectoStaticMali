@@ -1,0 +1,195 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - Mali Fiestas y Eventos</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .trailer-section {
+            position: relative;
+            min-height: 100vh;
+            padding: 100px 0 80px;
+        }
+
+        .background-blur {
+            position: absolute;
+            inset: 0;
+            background: url('/images/foto1.jpg') no-repeat center center / cover;
+            filter: blur(18px) brightness(0.35);
+            z-index: 1;
+        }
+
+        .contenido {
+            position: relative;
+            z-index: 2;
+        }
+
+        h1 {
+            letter-spacing: 2px;
+        }
+
+        .trailer-box {
+            max-width: 960px;
+            margin: 0 auto 90px;
+        }
+
+        .trailer-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* 🎬 CONTENEDOR 16:9 (CLAVE) */
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 */
+            border-radius: 22px;
+            overflow: hidden;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.85);
+            background: #000;
+        }
+
+        .video-wrapper video {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .btn-volver {
+            border-radius: 30px;
+            padding: 12px 30px;
+            font-weight: 600;
+        }
+
+        @@media (max-width: 768px) {
+            .trailer-section {
+                padding: 70px 0 60px;
+            }
+
+            .trailer-title {
+                font-size: 1.3rem;
+            }
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+<section class="trailer-section">
+    <div class="background-blur"></div>
+
+    <div class="container contenido text-center">
+
+        <h1 class="display-5 fw-bold mb-5 text-uppercase">
+            Trailers de Fiesta
+        </h1>
+
+        <!-- 🎬 TRAILER PÍA -->
+        <div class="trailer-box">
+            <div class="trailer-title">Pía · 15 Años</div>
+            <div class="video-wrapper">
+                <video controls preload="metadata">
+                    <source src="~/Videos/QuinceTrailer/MMPia.mp4" type="video/mp4" />
+                    Tu navegador no soporta video HTML5.
+                </video>
+            </div>
+        </div>
+
+        <!-- 🎬 TRAILER JOAQUÍN -->
+        <div class="trailer-box">
+            <div class="trailer-title">Joaquín · 15 Años</div>
+            <div class="video-wrapper">
+                <video controls preload="metadata">
+                    <source src="~/Videos/QuinceTrailer/MMJoaquin.mp4" type="video/mp4" />
+                    Tu navegador no soporta video HTML5.
+                </video>
+            </div>
+        </div>
+
+            <!-- 🎬 TRAILER FIORE Y MAGA -->
+            <div class="trailer-box">
+                <div class="trailer-title">Fiore & Maga · 15 Años</div>
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="~/Videos/QuinceTrailer/MMFiore&Maga.mp4" type="video/mp4" />
+                        Tu navegador no soporta video HTML5.
+                    </video>
+                </div>
+            </div>
+
+            <!-- 🎬 TRAILER ROMINA -->
+            <div class="trailer-box">
+                <div class="trailer-title">Romina · 15 Años</div>
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="~/Videos/QuinceTrailer/MMRomina.mp4" type="video/mp4" />
+                        Tu navegador no soporta video HTML5.
+                    </video>
+                </div>
+            </div>
+
+            <!-- 🎬 TRAILER Belen -->
+            <div class="trailer-box">
+                <div class="trailer-title">Belen · 15 Años</div>
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="~/Videos/QuinceTrailer/MMBelen.mp4" type="video/mp4" />
+                        Tu navegador no soporta video HTML5.
+                    </video>
+                </div>
+            </div>
+
+            <!-- 🎬 TRAILER GIULLIANA -->
+            <div class="trailer-box">
+                <div class="trailer-title">Giulliana · 15 Años</div>
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="~/Videos/QuinceTrailer/MMGiulliana.mp4" type="video/mp4" />
+                        Tu navegador no soporta video HTML5.
+                    </video>
+                </div>
+            </div>
+
+            <!-- 🎬 TRAILER DIEGO -->
+            <div class="trailer-box">
+                <div class="trailer-title">Diego · 15 Años</div>
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="~/Videos/QuinceTrailer/MMDiego.mp4" type="video/mp4" />
+                        Tu navegador no soporta video HTML5.
+                    </video>
+                </div>
+            </div>
+        <!-- VOLVER -->
+        <a asp-controller="Home" asp-action="Index" class="btn btn-outline-light btn-volver">
+            Volver al inicio
+        </a>
+
+    </div>
+</section>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

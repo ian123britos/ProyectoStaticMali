@@ -1,0 +1,1526 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Fotos - Mali Fiestas y Eventos</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .galeria-section {
+            position: relative;
+            min-height: 100vh;
+            color: #fff;
+            padding: 100px 0;
+        }
+
+        .background-blur {
+            position: absolute;
+            inset: 0;
+            background: url('@Url.Content("~/Images/fiesta-belen/Foto4Belen.jpg")') no-repeat center center / cover;
+            filter: blur(14px) brightness(0.6);
+            z-index: 1;
+        }
+
+        .contenido {
+            position: relative;
+            z-index: 2;
+        }
+
+
+
+        /* 🖼 FOTOS */
+        .foto-card {
+            overflow: hidden;
+            border-radius: 18px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+        }
+
+            .foto-card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform .4s ease;
+            }
+
+            .foto-card:hover img {
+                transform: scale(1.08);
+            }
+
+        .hidden {
+            display: none;
+        }
+
+
+        .btn-volver {
+            border-radius: 30px;
+            padding: 12px 30px;
+            font-weight: 600;
+        }
+
+        /* 📸 CARPETAS CON FOTO */
+        .carpeta-foto {
+            position: relative;
+            height: 520px; /* MISMO ALTO QUE LA IMAGEN */
+            border-radius: 22px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            cursor: pointer;
+            box-shadow: 0 25px 60px rgba(0,0,0,.6);
+            transition: transform .4s ease, box-shadow .4s ease;
+        }
+
+            .carpeta-foto:hover {
+                transform: scale(1.02);
+                box-shadow: 0 35px 80px rgba(0,0,0,.8);
+            }
+
+        /* Capa oscura + texto */
+        .carpeta-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,.65), rgba(0,0,0,.15));
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+
+            .carpeta-overlay h3 {
+                font-size: 2rem;
+                letter-spacing: 2px;
+                margin-bottom: 8px;
+            }
+
+            .carpeta-overlay span {
+                font-size: .9rem;
+                letter-spacing: 3px;
+                opacity: .85;
+            }
+
+
+    @* EJEMPLO DE MODIFICACION DE FOTO CHICA PARA QUE SE ADAPTE CON LAS QUE TIENE ALADO *@
+         .foto-destacada {
+        max-height: 720px;
+        margin-top: 10px; /* 👈 esto hizo que la foto 5 baje un poco para que no quede flotando la baja */
+        }
+
+        .foto-destacada img {
+            height: 100%;
+            object-fit: cover;
+        }
+
+    /* ----------------------------------------------------------------------------------- */
+    .titulo-galeria {
+    display: inline-block;
+    padding: 18px 45px;
+    border-radius: 60px;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 15px 40px rgba(0,0,0,.6);
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <section class="galeria-section">
+        <div id="background" class="background-blur"></div>
+
+        <div class="container contenido">
+
+         <h1 class="text-center display-4 fw-bold mb-4 text-uppercase">
+            <span class="titulo-galeria">Galería de Fotos</span>
+        </h1>
+
+
+
+            <!-- 📁 LISTADO DE CARPETAS CON FOTO -->
+            <div id="carpetas" class="row g-4">
+
+                <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('Viviana')"
+                         style="background-image:url('@Url.Content("~/images/fiesta-viviana/ftCarpetaViviana/PrincipalViviana.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>FIESTA VIVIANA</h3>
+                            @* <h6>13-02-03<h6 /> *@
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('Victoria')"
+                         style="background-image:url('@Url.Content("~/images/fiesta-victoria/ftCarpetaVictoria/PrincipalVictoria.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>FIESTA VICTORIA</h3>
+                            @* <h6>13-02-03<h6/> *@
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('Angela')"
+                         style="background-image:url('@Url.Content("~/images/fiesta-angela/ftCarpetaAngela/PrincipalAngela.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>FIESTA ANGELA</h3>
+                            @* <h6>13-02-03<h6/> *@
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>            
+
+                <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('Angelina')"
+                         style="background-image:url('@Url.Content("~/images/fiesta-angelina/ftCarpetaAngelina/PrincipalAngelina.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>FIESTA ANGELINA</h3>
+                            @* <h6>13-02-03<h6 /> *@
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('AntonellaH')"
+                         style="background-image:url('@Url.Content("~/images/fiesta-antonellaH/ftCarpetaAntonellaH/PrincipalAntonellaH.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>FIESTA ANTONELLA</h3>
+                            @* <h6>13-02-03<h6 /> *@
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('Belen')"
+                         style="background-image:url('@Url.Content("~/images/fiesta-belen/ftCarpetaBelen/PrincipalBelen.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>FIESTA BELEN</h3>
+                            @* <h6>13-02-03<h6 /> *@
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('Maia')"
+                         style="background-image:url('@Url.Content("~/images/fiesta-maia/ftCarpetaMaia/PrincipalMaia.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>FIESTA MAIA</h3>
+                            @* <h6>13-02-03<h6 /> *@
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+                  <div class="col-6 col-md-4">
+                    <div class="carpeta-foto" onclick="abrirCarpeta('Pili')"
+                         style="background-image:url('@Url.Content("~/images/fiesta-pili/ftCarpetaPili/PrincipalPili.jpg")')">
+                        <div class="carpeta-overlay">
+                            <h3>FIESTA PILI</h3>
+                            @* <h6>13-02-03<h6 /> *@
+                            <span>VER GALERÍA</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                   <div class="text-center mt-5">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-light btn-volver">
+                        Volver al inicio
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- 📸 FOTOS VIVIANA -->
+            <div id="galeria-Viviana" class="hidden">
+
+                <h2 class="subtitulo-galeria text-center mb-4">
+                    Mi Fiesta · Viviana
+                </h2>
+
+                <div class="row g-4 mt-2">
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto1Viviana.jpg">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto2Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto3Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto4Viviana.jpg">
+                        </div>
+                    </div>
+
+                    @* EJEMPLO DE MODIFICACION DE FOTO CHICA PARA QUE SE ADAPTE CON LAS QUE TIENE ALADO *@
+                    <div class="col-12 col-md-6 mx-auto">
+                        <div class="foto-card foto-destacada">
+                            <img src="~/images/fiesta-viviana/Foto5Viviana.jpg">
+                        </div>
+                    </div>
+                    @* ----------------------------------------------------------------------------------- *@
+
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto6Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto7Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto8Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto9Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto10Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto11Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto12Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto13Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto14Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto15Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto16Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto17Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto18Viviana.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-viviana/Foto19Viviana.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="btnCerrar" class="text-center mt-5">
+                    <button class="btn btn-outline-light" onclick="cerrarCarpeta()">Cerrar carpeta</button>
+                </div>
+            </div>
+
+            <!-- 📸 FOTOS VICTORIA -->
+            <div id="galeria-Victoria" class="hidden">
+
+                <h2 class="subtitulo-galeria text-center mb-4">
+                    Mi Fiesta · Victoria
+                </h2>
+
+                <div class="row g-4 mt-2">
+              
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto0Victoria.JPG">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto1Victoria.JPG">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto2Victoria.JPG">
+                            </div>
+                        </div>
+
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto3Victoria.JPG">
+                            </div>
+                        </div>
+
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto4Victoria.JPG">
+                            </div>
+                        </div>
+
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto5Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto6Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto7Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto8Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto9Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto10Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto11Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto12Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto13Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto14Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto15Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto16Victoria.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto17Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto18Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto19Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto20Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto21Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto22Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto23Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto24Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto25Victoria.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto26Victoria.JPG">
+                            </div>
+                        </div>
+                            <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto27Victoria.JPG">
+                            </div>
+                        </div>
+                            <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto28Victoria.JPG">
+                            </div>
+                        </div>
+                            <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-victoria/Foto29Victoria.JPG">
+                            </div>
+                        </div>
+                    <div id="btnCerrar" class="text-center mt-5">
+                        <button class="btn btn-outline-light" onclick="cerrarCarpeta()">Cerrar carpeta</button>
+                    </div>
+
+                </div>
+            </div>
+
+             <!-- 📸 FOTOS VICTORIA -->
+            <div id="galeria-Angela" class="hidden">
+
+                <h2 class="subtitulo-galeria text-center mb-4">
+                    Mi Fiesta · Angela
+                </h2>
+
+                <div class="row g-4 mt-2">
+              
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto1Angela.JPG">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto2Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto3Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto4Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto5Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto6Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto7Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto8Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto9Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto10Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto11Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto12Angela.JPG">
+                            </div>
+                        </div>
+                          <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto13Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto14Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto15Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto16Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto17Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto18Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto19Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto20Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto21Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto22Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto23Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto23.1Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto24Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto24.1Angela.JPG">
+                            </div>
+                        </div>
+                    
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto26Angela.JPG">
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto28Angela.JPG">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto29Angela.JPG">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto30Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto31Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto32Angela.JPG">
+                            </div>
+                        </div>
+                         <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/images/fiesta-angela/Foto33Angela.JPG">
+                            </div>
+                        </div>
+                    <div id="btnCerrar" class="text-center mt-5">
+                        <button class="btn btn-outline-light" onclick="cerrarCarpeta()">Cerrar carpeta</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 📸 FOTOS ANGELINA -->
+            <div id="galeria-Angelina" class="hidden">
+
+                <h2 class="subtitulo-galeria text-center mb-4">
+                    Mi Fiesta · Angelina
+                </h2>
+
+                <div class="row g-4 mt-2">
+
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto2Angelina.jpg">
+                        </div>
+                    </div>
+                    
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto1Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto3Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto4Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto5Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto6Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto7Angelina.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto8Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto9Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto10Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto11Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto12Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto13Angelina.jpg">
+                        </div>
+                    </div>
+                       <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto14Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto15Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto16Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto17Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto18Angelina.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto19Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto20Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto21Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto22Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto23Angelina.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto25Angelina.jpg">
+                        </div>
+                    </div>
+                      <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto24Angelina.jpg">
+                        </div>
+                    </div>
+                      <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto28Angelina.jpg">
+                        </div>
+                    </div>
+                      <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto27Angelina.jpg">
+                        </div>
+                    </div>
+                      <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-angelina/Foto26Angelina.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                 <!-- 📸 FOTOS ANTONELLAH -->
+            <div id="galeria-AntonellaH" class="hidden">
+
+                <h2 class="subtitulo-galeria text-center mb-4">
+                    Mi Fiesta · Antonella
+                </h2>
+
+                <div class="row g-4 mt-2">
+
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto1AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto2AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto3AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto4AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto5AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto6AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto7AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto8AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto9AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto10AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto11AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto12AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto13AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto14AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto15AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto16AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto17AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto18AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto19AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto20AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto21AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto22AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto23AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto24AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto25AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto26AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto27AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto28AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto29AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto31AntonellaH.jpg">
+                        </div>
+                    </div>
+                          <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-antonellaH/Foto30AntonellaH.jpg">
+                        </div>
+                    </div>                    
+              
+                </div>
+
+                <div id="btnCerrar" class="text-center mt-5">
+                    <button class="btn btn-outline-light" onclick="cerrarCarpeta()">Cerrar carpeta</button>
+                </div>
+            </div>
+
+
+            <!-- 📸 FOTOS Belen -->
+            <div id="galeria-Belen" class="hidden">
+
+                <h2 class="subtitulo-galeria text-center mb-4">
+                    Mi Fiesta · Belen
+                </h2>
+
+                <div class="row g-4 mt-2">
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto1Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto2Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto3Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto4Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto5Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto6Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto7Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto8Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto9Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto10Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto11Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto12Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto13Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto14Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto15Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto16Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto17Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto18Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto19Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto20Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto21Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto22Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto23Belen.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-belen/Foto24Belen.jpg">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div id="btnCerrar" class="text-center mt-5">
+                    <button class="btn btn-outline-light" onclick="cerrarCarpeta()">Cerrar carpeta</button>
+                </div>
+            </div>
+
+            <!-- 📸 FOTOS MAIA -->
+            <div id="galeria-Maia" class="hidden">
+
+                <h2 class="subtitulo-galeria text-center mb-4">
+                    Mi Fiesta · Maia
+                </h2>
+
+                <div class="row g-4 mt-2">
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto1Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto2Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto3Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto4Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto5Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto6Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto7Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto8Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto9Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto10Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto11Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto12Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto13Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto14Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto15Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto16Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto17Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto18Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto19Maia.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto20Maia.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto21Maia.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto22Maia.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto23Maia.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto24Maia.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto25Maia.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto26Maia.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-maia/Foto28Maia.jpg">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div id="btnCerrar" class="text-center mt-5">
+                    <button class="btn btn-outline-light" onclick="cerrarCarpeta()">Cerrar carpeta</button>
+                </div>
+            </div>
+
+            
+            <!-- 📸 FOTOS MAIA -->
+            <div id="galeria-Pili" class="hidden">
+
+                <h2 class="subtitulo-galeria text-center mb-4">
+                    Mi Fiesta · Pili
+                </h2>
+
+                <div class="row g-4 mt-2">
+
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto1Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto2Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto6Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto4Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto3Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto7Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto8Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto11Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto10Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto9Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto12Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto13Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto14Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto15Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto16Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto17Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto18Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto19Pili.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto20Pili.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto21Pili.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto25Pili.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto23Pili.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto24Pili.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto22Pili.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto26Pili.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto27Pili.jpg">
+                        </div>
+                    </div>
+                     <div class="col-6 col-md-4">
+                        <div class="foto-card">
+                            <img src="~/images/fiesta-pili/Foto28Pili.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="btnCerrar" class="text-center mt-5">
+                    <button class="btn btn-outline-light" onclick="cerrarCarpeta()">Cerrar carpeta</button>
+                </div>
+            </div>
+
+
+
+    </section>
+
+    <script>
+        const fondo = document.getElementById("background");
+
+        const fondoGeneral   = "url('@Url.Content("~/images/fiesta-belen/Foto4Belen.jpg")')";
+        const fondoViviana   = "url('@Url.Content("~/images/fiesta-viviana/Foto5Viviana.jpg")')";
+        const fondoVictoria  = "url('@Url.Content("~/images/fiesta-victoria/Foto12Victoria.jpg")')";
+        const fondoAngela    = "url('@Url.Content("~/images/fiesta-angela/Foto1Angela.jpg")')";
+        const fondoAngelina  = "url('@Url.Content("~/images/fiesta-angelina/Foto2Angelina.jpg")')";
+        const fondoAntonellaH= "url('@Url.Content("~/images/fiesta-antonellaH/Foto7AntonellaH.jpg")')";
+        const fondoBelen     = "url('@Url.Content("~/images/fiesta-belen/Foto3Belen.jpg")')";
+        const fondoMaia      = "url('@Url.Content("~/images/fiesta-maia/Foto1Maia.jpg")')";
+        const fondoPili      = "url('@Url.Content("~/images/fiesta-pili/Foto1Pili.jpg")')";
+
+        function abrirCarpeta(nombre) {
+            document.getElementById('carpetas').classList.add('hidden');
+            document.getElementById('galeria-' + nombre).classList.remove('hidden');
+
+            if (nombre === 'Viviana') fondo.style.backgroundImage = fondoViviana;
+            if (nombre === 'Victoria') fondo.style.backgroundImage = fondoVictoria;
+            if (nombre === 'Angela') fondo.style.backgroundImage = fondoAngela;
+            if (nombre === 'Angelina') fondo.style.backgroundImage = fondoAngelina;
+            if (nombre === 'AntonellaH') fondo.style.backgroundImage = fondoAntonellaH;
+            if (nombre === 'Belen') fondo.style.backgroundImage = fondoBelen;
+            if (nombre === 'Maia') fondo.style.backgroundImage = fondoMaia;
+            if (nombre === 'Pili') fondo.style.backgroundImage = fondoPili;
+        }
+
+        function cerrarCarpeta() {
+            document.getElementById('carpetas').classList.remove('hidden');
+            document.querySelectorAll('[id^="galeria-"]').forEach(g => g.classList.add('hidden'));
+            fondo.style.backgroundImage = fondoGeneral;
+        }
+    </script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
