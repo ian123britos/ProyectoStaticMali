@@ -205,7 +205,7 @@
                 <div class="exteriores-card" onclick="mostrarFotos()">
                     <video class="exteriores-video" autoplay muted loop playsinline>
                         
-                        <source src="@Url.Content("~/Videos/Cortos/FotoFondoPagWeb.mp4")" type="video/mp4">
+                        <source src="@Url.Content("~/Videos/Cortos/CortoFotosExteriores.mp4")" type="video/mp4">
                     </video>
 
                     <div class="exteriores-overlay">
@@ -297,34 +297,45 @@
             <h3 class="text-center my-5 fw-bold">Fotos Exteriores</h3>
 
             <div class="row g-4">
-            <div class="col-6 col-md-4">
-                    <div class="carpeta-foto" onclick="abrirCarpeta('ExtAngela')"
-                         style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-angela/PrincipalEXTangela.jpg")')">
-                        <div class="carpeta-overlay">
-                            <h3>ANGELA</h3>
-                            <span>VER GALERÍA</span>
-                        </div>
-                    </div>
-                </div>
 
-            <div class="col-6 col-md-4">
-                    <div class="carpeta-foto" onclick="abrirCarpeta('ExtAngelina')"
-                         style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto11EXTAngelina.jpg")')">
+                <div class="col-6 col-md-4">
+                        <div class="carpeta-foto" onclick="abrirCarpeta('ExtMaia')"
+                             style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-maia/PrincipalMaia.jpg")')">
                             <div class="carpeta-overlay">
-                                <h3>ANGELINA</h3>
+                                <h3>MAIA</h3>
                                 <span>VER GALERÍA</span>
                             </div>
-                    </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-                    <div class="carpeta-foto" onclick="abrirCarpeta('ExtVictoria')"
-                         style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext11victoria.jpg")')">
-                        <div class="carpeta-overlay">
-                            <h3>VICTORIA</h3>
-                            <span>VER GALERÍA</span>
                         </div>
-                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                        <div class="carpeta-foto" onclick="abrirCarpeta('ExtAngela')"
+                             style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-angela/PrincipalEXTangela.jpg")')">
+                            <div class="carpeta-overlay">
+                                <h3>ANGELA</h3>
+                                <span>VER GALERÍA</span>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                        <div class="carpeta-foto" onclick="abrirCarpeta('ExtAngelina')"
+                             style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-angelina/Foto11EXTAngelina.jpg")')">
+                                <div class="carpeta-overlay">
+                                    <h3>ANGELINA</h3>
+                                    <span>VER GALERÍA</span>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                        <div class="carpeta-foto" onclick="abrirCarpeta('ExtVictoria')"
+                             style="background-image:url('@Url.Content("~/images/Exteriores/FTexteriores-victoria/fext11victoria.jpg")')">
+                            <div class="carpeta-overlay">
+                                <h3>VICTORIA</h3>
+                                <span>VER GALERÍA</span>
+                            </div>
+                        </div>
                 </div>
             </div>
 
@@ -335,6 +346,27 @@
         </div>
 
         <!-- ===== GALERÍAS ===== -->
+         <div id="galeria-ExtMaia" class="hidden galeria">
+            <h3 class="text-center my-5 fw-bold">Maia · Exteriores</h3>
+            <div class="row g-4">
+                <div class="row g-4">
+                    @for (int i = 1; i <= 19; i++)
+                    {
+                        <div class="col-6 col-md-4">
+                            <div class="foto-card">
+                                <img src="~/Images/Exteriores/FTexteriores-maia/ExtMaia@(i).jpg">
+                            </div>
+                        </div>
+                    }
+
+                </div>
+
+                 <div class="text-center mt-5">
+                    <button class="btn btn-outline-light px-5 py-3" onclick="volverAFotos()">Volver</button>
+                </div>
+
+          </div>
+
         <div id="galeria-ExtAngela" class="hidden galeria">
             <h3 class="text-center my-5 fw-bold">Angela · Exteriores</h3>
             <div class="row g-4">

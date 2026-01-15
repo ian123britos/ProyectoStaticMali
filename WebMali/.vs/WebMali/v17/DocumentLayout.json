@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|c:\\users\\hlbc7\\proyectostaticmali\\webmali\\web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|solutionrelative:web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|c:\\users\\hlbc7\\proyectostaticmali\\webmali\\web\\views\\boda\\trailerboda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|solutionrelative:web\\views\\boda\\trailerboda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|c:\\users\\hlbc7\\proyectostaticmali\\webmali\\web\\views\\quince\\exteriores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|solutionrelative:web\\views\\quince\\exteriores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|c:\\users\\hlbc7\\proyectostaticmali\\webmali\\web\\views\\boda\\fotosboda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|solutionrelative:web\\views\\boda\\fotosboda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|c:\\users\\hlbc7\\proyectostaticmali\\webmali\\web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|solutionrelative:web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|c:\\users\\hlbc7\\proyectostaticmali\\webmali\\web\\views\\quince\\trailer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|solutionrelative:web\\views\\quince\\trailer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|c:\\users\\hlbc7\\proyectostaticmali\\webmali\\web\\views\\boda\\trailerboda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|solutionrelative:web\\views\\boda\\trailerboda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8739529-4EF3-4B0C-A68B-0F79C674BBE2}|Web\\Web.csproj|c:\\users\\hlbc7\\proyectostaticmali\\webmali\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 415,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Exteriores.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Quince\\Exteriores.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Quince\\Exteriores.cshtml",
+              "ToolTip": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Quince\\Exteriores.cshtml",
+              "RelativeToolTip": "Web\\Views\\Quince\\Exteriores.cshtml",
+              "ViewState": "AgIAACUBAAAAAAAAAIBJwGoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-06T15:49:24.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAKQBAAAAAAAAAAAAAJ8BAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-11T18:45:36.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TrailerBoda.cshtml",
               "DocumentMoniker": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Boda\\TrailerBoda.cshtml",
               "RelativeDocumentMoniker": "Web\\Views\\Boda\\TrailerBoda.cshtml",
@@ -46,38 +75,23 @@
               "RelativeToolTip": "Web\\Views\\Boda\\TrailerBoda.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAGgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-11T20:24:41.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:24:41.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAJQBAAAAAAAAAAAAAKQBAAAWAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Trailer.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Quince\\Trailer.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Quince\\Trailer.cshtml",
+              "ToolTip": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Quince\\Trailer.cshtml",
+              "RelativeToolTip": "Web\\Views\\Quince\\Trailer.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAGkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-11T18:45:36.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T13:57:12.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Exteriores.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Quince\\Exteriores.cshtml",
-              "RelativeDocumentMoniker": "Web\\Views\\Quince\\Exteriores.cshtml",
-              "ToolTip": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Quince\\Exteriores.cshtml",
-              "RelativeToolTip": "Web\\Views\\Quince\\Exteriores.cshtml",
-              "ViewState": "AgIAAEcBAAAAAAAAAAAAAFEBAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-06T15:49:24.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Web\\Views\\Shared\\_Layout.cshtml",
@@ -85,21 +99,30 @@
               "RelativeToolTip": "Web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEQAAAAAAAAAAAAAAHoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-12T18:25:56.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:25:56.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FotosBoda.cshtml",
               "DocumentMoniker": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Boda\\FotosBoda.cshtml",
               "RelativeDocumentMoniker": "Web\\Views\\Boda\\FotosBoda.cshtml",
               "ToolTip": "C:\\Users\\hlbc7\\ProyectoStaticMali\\WebMali\\Web\\Views\\Boda\\FotosBoda.cshtml",
               "RelativeToolTip": "Web\\Views\\Boda\\FotosBoda.cshtml",
-              "ViewState": "AgIAALkAAAAAAAAAAAAAAMoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAAM0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-09T19:36:32.484Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 921,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
